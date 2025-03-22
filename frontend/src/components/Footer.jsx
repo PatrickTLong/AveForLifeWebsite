@@ -27,10 +27,10 @@ export default function Footer() {
     }, []);
 
     return (
-        <div className={`flex justify-center  items-center ${windowWidth >= 640 ? 'flex-row' : 'flex-col'} gap-20 p-28 shadow-md bg-pink-300 bg-opacity-55 text-white`}>
+        <div className={`flex justify-center  items-center ${windowWidth >= 640 ? 'flex-row' : 'flex-col'} bg-blue-900 gap-20 p-28 shadow-md  bg-opacity-55 text-white`}>
             {/* Media */}
             <div className="flex flex-col justify-center items-center ">
-                <img className="w-[9rem] flex invert" src={AveLogoWhite}></img>
+                <img className={` ${windowWidth >= 640 ? 'w-[9rem]' : 'w-[7rem]'} flex invert`} src={AveLogoWhite}></img>
                 <div className="flex gap-5">
                     <a href="https://www.instagram.com/amuforlife/" className="hover:-translate-y-1 transition-all" >{instasvg}</a>
                     <a href="https://www.facebook.com/avemariauniv/" className="hover:-translate-y-1 transition-all">{facesvg}</a>
@@ -38,12 +38,16 @@ export default function Footer() {
             </div>
 
             {/* Contact Info */}
-            <div className={`flex ${windowWidth >= 640 ? 'flex-row gap-5' : 'gap-12 flex-col'} ${windowWidth >= 640 ? 'text-md' : 'text-sm'} ${windowWidth >= 640 ? null : 'w-80'}  justify-center items-center `}>
+            <div className={`flex ${windowWidth >= 640 ? 'flex-row gap-5' : 'gap-12 flex-col'} ${windowWidth >= 640 ? 'text-md' : 'text-sm'} ${windowWidth >= 640 ? null : 'w-80'}   justify-center items-center `}>
                 <div className="flex flex-col border-l-2 pl-6 border-white  gap-5">
                     <div className="">5050 Ave Maria Blvd., Ave Maria, FL <br></br>34142</div>
                     <a className="underline hover:scale-105 transition-all will-change-transform" href="https://www.avemaria.edu/clubs-and-organizations/ave-for-life">Ave Maria University</a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Michael.d.long@my.avemaria.edu"  className="underline"> To Donate Contact:<br></br>Michael.d.long@my.avemaria.edu</a>
-                    <div>954 297-6542</div>
+                    <div className="flex  flex-col">
+                        <a   className=""> To Donate Contact:</a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Michael.d.long@my.avemaria.edu" className="underline">Michael.d.long@my.avemaria.edu</a>
+                    </div>
+                  
+                    
                     
                 </div>
                 <div className="border-l-2 pl-6 flex text-xs gap-5 flex-col border-white ">
@@ -53,7 +57,7 @@ export default function Footer() {
                 
             </div>
             
-            <div className={`font-volkhov bg-gradient-to-tr  tracking-tighter border-t-2 border-b-2 p-2 hover:scale-105 will-change-transform transition-all border-white rounded-full  ${windowWidth >= 640 ? ' text-5xl' : 'text-2xl'}`}>
+            <div className={`font-volkhov bg-gradient-to-tr  tracking-tighter border-t-2 border-b-2 p-2 hover:scale-105 will-change-transform transition-all border-white rounded-full  ${windowWidth >= 640 ? ' text-4xl' : 'text-2xl'}`}>
                 Ave For Life.
             </div>
             

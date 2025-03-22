@@ -52,7 +52,7 @@ export default function Main2() {
     return (
         <>
             {/*Start*/}
-            <div  className={` relative  ${windowWidth >= 640 ? 'flex-col' : 'flex-col'} p-14 pt-24 pb-24   flex gap-10 bg-opacity-15 items-center justify-center`}>
+            <div  className={` relative  ${windowWidth >= 640 ? 'flex-col' : 'flex-col'}  pt-24 pb-24   flex gap-10 bg-opacity-15 items-center justify-center`}>
                 <h1 className={` items-center  font-volkhov gap-4 justify-center flex ${windowWidth >= 640 ? 'text-3xl' : 'text-2xl'} `}>
         
                     What We Do!
@@ -62,7 +62,7 @@ export default function Main2() {
                     {/*TextBox*/}
                     
                     
-                    <img onTransitionEnd={() => TransEnd()} className={`shadow-xl ${windowWidth >= 640 ? 'h-96 w-[40rem]' : 'h-60 w-[30rem] '} transition-opacity duration-1000 ${transition ? 'opacity-0' : 'opacity-100 '}  object-cover rounded-xl`} src={arrayofpics[arrayset]} alt="Pro Life Images" />
+                    <img onTransitionEnd={() => TransEnd()} className={`shadow-xl ${windowWidth >= 640 ? 'h-96 w-[40rem]' : 'h-60 w-screen '} transition-opacity duration-1000 ${transition ? 'opacity-0' : 'opacity-100 '}  object-cover `} src={arrayofpics[arrayset]} alt="Pro Life Images" />
                     {/*What we Do*/}
                     <div className="flex flex-col justify-center items-center gap-5">
                       
@@ -74,7 +74,7 @@ export default function Main2() {
                             <li> Weekly On-Campus Holy Hours</li>
                             <li> Club Meetings </li>
                         </ul>
-                        <button onClick={() => OpenMission()} className="transition-all will-change-transform shadow-xl bg-emerald-400 border-emerald-300 border-2 hover:bg-emerald-300 text-white rounded-xl p-2 hover:scale-105">Check Out Our Mission Statement!</button>
+                        <button onClick={() => OpenMission()} className={`transition-all will-change-transform shadow-xl bg-emerald-400 border-emerald-300 border-2 hover:bg-emerald-300 ${windowWidth >= 640 ? 'text-md' : 'text-sm'} text-white rounded-xl p-2 hover:scale-105`}>Check Out Our Mission Statement!</button>
                     </div>
                     
                 </div>

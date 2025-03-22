@@ -27,7 +27,7 @@ export default function App() {
       <Header />
       <Main1 
         img={MainPic} 
-        add='pt-32 pb-16'
+        add='pt-32 pb-16 border-b-2'
         title="We are the Pro-Life Generation." 
         summary="As the Ave for Life Club, we stand against the tragedy of abortion and its impact on men, women, and children worldwide. Our mission is to empower pro-life students at Ave Maria University, uniting them in prayer, education, and community-building events to create a culture that upholds the dignity of life." 
         svg={checksvg}
@@ -37,7 +37,7 @@ export default function App() {
         img={Mlong1} 
         add='pt-16 pb-16'
         title="Meet Our President!" 
-        summary="Michael D. Long graduated from Donahue Academy High School in Ave Maria, where he founded the Pro-Life Club, which remains active today. He is now a sophomore at Ave Maria University. He has also spoken at the March for Life in Ave Maria and Washington, D.C., where he translated for a Brazilian speaker. He works as a Sidewalk Advocate, and he is also an ambassador for the Community Pregnancy Center and he gives talks to promote chastity and other topics. As our President he is dedicated to championing the dignity and protection of unborn babies while fostering a culture of love and support for mothers in difficult circumstances. He works tirelessly to promote life-affirming solutions, ensuring that women receive the care, compassion, and resources they need to choose life with confidence and hope."
+        summary="Michael D. Long, an Ave Maria local and Donahue Academy graduate, is a sophomore at Ave Maria University studying Theology and Humanities. He has been involved with the Pro-Life movement since he was a child, having experience from starting a club at his High School to speaking as a translator at the March for Life in Washington D.C. Michael also does Sidewalk Advocacy and works for Community Pregnancy Clinics in Naples as a Chastity speaker. To reach out for donations, potential events, or any questions, email him at michael.d.long@my.avemaria.edu"
        
       />
       <Footer />
