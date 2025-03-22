@@ -57,7 +57,7 @@ export default function Footer() {
                 
             </div>
             
-            <div className={`font-volkhov bg-gradient-to-tr  tracking-tighter border-t-2 border-b-2 p-2 hover:scale-105 will-change-transform transition-all border-white rounded-full  ${windowWidth >= 640 ? ' text-4xl' : 'text-2xl'}`}>
+            <div className={`font-volkhov bg-gradient-to-tr whitespace-nowrap  tracking-tighter border-t-2 border-b-2 p-2 hover:scale-105 will-change-transform transition-all border-white rounded-full  ${windowWidth >= 640 ? ' text-4xl' : 'text-2xl'}`}>
                 Ave For Life.
             </div>
             
