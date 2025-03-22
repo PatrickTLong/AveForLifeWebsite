@@ -67,7 +67,7 @@ export default function Main2() {
                     
                     {/*What we Do*/}
                     <div className="flex flex-col justify-center items-center gap-5">
-                        {windowWidth <= 640 ? <h1 className={` items-center  font-volkhov gap-4 justify-center flex ${windowWidth >= 640 ? 'text-3xl' : 'text-2xl'} `}>
+                        {windowWidth <= 640 ? <h1 className={` items-center  font-volkhov gap-4 justify-center flex ${windowWidth >= 640 ? 'text-3xl' : 'text-xl'} `}>
                         
                         What We Do!
                         </h1> : null}
