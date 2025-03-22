@@ -53,10 +53,8 @@ export default function Main2() {
         <>
             {/*Start*/}
             <div  className={` relative  ${windowWidth >= 640 ? 'flex-col' : 'flex-col'} p-14 pt-24 pb-24   flex gap-10 bg-opacity-15 items-center justify-center`}>
-                <h1 className={` items-center  font-volkhov gap-4 justify-center flex   ${windowWidth >= 640 ? 'text-4xl' : 'text-2xl'}`}>
-                    <div className="">
-                        
-                    </div>
+                <h1 className={` items-center  font-volkhov gap-4 justify-center flex ${windowWidth >= 640 ? 'text-3xl' : 'text-2xl'} `}>
+        
                     What We Do!
                 </h1>
                 {/*Img and text*/}
@@ -68,7 +66,7 @@ export default function Main2() {
                     {/*What we Do*/}
                     <div className="flex flex-col justify-center items-center gap-5">
                       
-                        <ul className="list-disc shadow-xl flex gap-4 border-slate-700 border-2 border-opacity-15  flex-col list-inside rounded-3xl p-4 opacity-55 bg-slate-800 bg-opacity-15">
+                        <ul className={`list-disc shadow-xl flex gap-4 border-slate-700 border-2 border-opacity-15  flex-col list-inside rounded-3xl ${windowWidth >= 640 ? 'text-md' : 'text-sm'} p-4 opacity-55 bg-slate-800 bg-opacity-15`}>
                             <li> Friday and Saturday Planned Parenthood Trips </li>
                             <li> March for Life Trip</li>
                             <li> Frequent Fun and Exciting Club Hangout Events </li>

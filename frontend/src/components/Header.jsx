@@ -41,7 +41,7 @@ export default function Header() {
       {/* Menu Section - Always on the right */}
       {windowWidth >= 640 ? (
         // Desktop Menu
-        <menu className="flex gap-5 items-center justify-center">
+        <menu className={`flex gap-5 ${windowWidth >= 640 ? 'text-md' : 'text-sm'} items-center justify-center`}>
           <a href="https://www.avemaria.edu/clubs-and-organizations/ave-for-life" className="transition-all will-change-transform hover:scale-105">More Info</a>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Michael.d.long@my.avemaria.edu" className="transition-all will-change-transform hover:scale-105">Donate</a>
           <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=Michael.d.long@my.avemaria.edu" className="transition-all will-change-transform shadow-xl bg-emerald-400 border-emerald-300 border-2 hover:bg-emerald-300 text-white rounded-xl p-2 hover:scale-105">Email Us</a>
@@ -57,7 +57,7 @@ export default function Header() {
           </button>
           
           {/* Mobile Menu Dropdown */}
-          <menu className={`gap-7 shadow-2xl flex justify-center items-center  ${menuOn ? 'opacity-100 pointer-events-auto translate-y-10' : 'pointer-events-none opacity-0'} bg-opacity-95 whitespace-nowrap right-0 p-10 pr-12 pl-12 bg-white duration-500 z-10 will-change-transform transition-all rounded-xl absolute flex flex-col`}>
+          <menu className={`gap-7 shadow-2xl flex justify-center items-center ${windowWidth >= 640 ? 'text-md' : 'text-sm'}  ${menuOn ? 'opacity-100 pointer-events-auto translate-y-10' : 'pointer-events-none opacity-0'} bg-opacity-95 whitespace-nowrap right-0 p-10 pr-12 pl-12 bg-white duration-500 z-10 will-change-transform transition-all rounded-xl absolute flex flex-col`}>
             <a href="https://www.avemaria.edu/clubs-and-organizations/ave-for-life" className="transition-all  will-change-transform hover:scale-105">More Info</a>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Michael.d.long@my.avemaria.edu" className="transition-all will-change-transform hover:scale-105">Donate</a>
             <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=Michael.d.long@my.avemaria.edu"  className="transition-all will-change-transform shadow-xl bg-emerald-400 border-emerald-300 border-2 hover:bg-emerald-300 text-white rounded-xl p-2 hover:scale-105">Email Us</a>
