@@ -66,7 +66,7 @@ export default function Main2() {
                     {/*What we Do*/}
                     <div className="flex flex-col justify-center items-center gap-5">
                       
-                        <ul className={`list-disc shadow-xl flex gap-4 border-slate-700 border-2 border-opacity-15  flex-col list-inside rounded-3xl ${windowWidth >= 640 ? 'text-md' : 'text-sm'} p-4 opacity-55 bg-slate-800 bg-opacity-15`}>
+                        <ul className={`list-disc shadow-xl flex gap-4 border-slate-700 border-2 border-opacity-15  flex-col list-inside rounded-3xl ${windowWidth >= 640 ? 'text-md' : 'text-sm'} ${windowWidth >= 640 ? null : 'w-80'} p-4 opacity-55 bg-slate-800 bg-opacity-15`}>
                             <li> Friday and Saturday Planned Parenthood Trips </li>
                             <li> March for Life Trip</li>
                             <li> Frequent Fun and Exciting Club Hangout Events </li>
