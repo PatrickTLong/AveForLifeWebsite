@@ -37,7 +37,7 @@ export default function App() {
         img={Mlong1} 
         add='pt-16 pb-16'
         title="Meet Our President!" 
-        summary="Michael D. Long graduated as the salutatorian of Donahue Academy High School in Ave Maria. He is now a sophomore at Ave Maria University. As our President, he is dedicated to championing the dignity and protection of unborn babies while fostering a culture of love and support for mothers in difficult circumstances. He works tirelessly to promote life-affirming solutions, ensuring that women receive the care, compassion, and resources they need to choose life with confidence and hope."
+        summary="Michael D. Long graduated from Donahue Academy High School in Ave Maria, where he founded the Pro-Life Club, which remains active today. He is now a sophomore at Ave Maria University. He has also spoken at the March for Life in Ave Maria and Washington, D.C., where he translated for a Brazilian speaker. He works as a Sidewalk Advocate, and he is also an ambassador for the Community Pregnancy Center and he gives talks to promote chastity and other topics. As our President he is dedicated to championing the dignity and protection of unborn babies while fostering a culture of love and support for mothers in difficult circumstances. He works tirelessly to promote life-affirming solutions, ensuring that women receive the care, compassion, and resources they need to choose life with confidence and hope."
        
       />
       <Footer />
