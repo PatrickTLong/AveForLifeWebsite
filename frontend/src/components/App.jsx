@@ -30,7 +30,7 @@ export default function App() {
         add='pt-32 pb-16 border-b-2'
         title="We are the Pro-Life Generation." 
         summary="As the Ave for Life Club, we stand against the tragedy of abortion and its impact on men, women, and children worldwide. Our mission is to empower pro-life students at Ave Maria University, uniting them in prayer, education, and community-building events to create a culture that upholds the dignity of life." 
-        svg={checksvg}
+        addsmall='pt-32'
       />
       <Main2 />
       <Main1 
@@ -38,7 +38,7 @@ export default function App() {
         add='pt-16 pb-16'
         title="Meet Our President!" 
         summary="Michael D. Long, an Ave Maria local and Donahue Academy graduate, is a sophomore at Ave Maria University studying Theology and Humanities. He has been involved with the Pro-Life movement since he was a child, having experience from starting a club at his High School to speaking as a translator at the March for Life in Washington D.C. Michael also does Sidewalk Advocacy and works for Community Pregnancy Clinics in Naples as a Chastity speaker. To reach out for donations, potential events, or any questions, email him at michael.d.long@my.avemaria.edu"
-       
+        addsmall='pb-16'
       />
       <Footer />
     </>

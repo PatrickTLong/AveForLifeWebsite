@@ -43,16 +43,14 @@ export default function Main1(props) {
     return (
         <>
             {/* Main container */}
-            <div className={` ${windowWidth >= 640 ? 'flex-row p-14' : 'flex-col'}  ${props.add}     border-t-2 flex gap-10 bg-opacity-15 items-center justify-center`}>
+            <div className={`${windowWidth >= 640 ? `${props.add} flex-row p-14 border-t-2` : `flex-col ${props.addsmall}`} flex gap-10 bg-opacity-15 items-center justify-center`}>
                 {/* Background Image */}
                 <img className={`object-cover  shadow-xl ${windowWidth >= 640 ? 'h-96 w-[40rem] rounded-xl' : 'h-60  w-screen '}`} src={props.img} alt="Pro Life Image" />
 
                 {/* Overlay text */}
                 <div className="flex gap-3 flex-col relative justify-center items-center">
-                    <div className={` font-volkhov flex items-center p-2 gap-3 ${windowWidth >= 640 ? 'text-3xl' : 'text-xl'}`}>
-                        <div className="">
-                        {props.svg}
-                        </div>
+                    <div className={` font-volkhov flex items-center p-2 gap-3 ${windowWidth >= 640 ? 'text-3xl' : 'text-2xl'}`}>
+                        
                             {props.title}
                     </div>
                     <div className={`rounded-3xl  shadow-xl border-slate-700 border-2 border-opacity-15  p-4 opacity-55  ${windowWidth >= 640 ? 'text-md' : 'text-sm'} ${windowWidth >= 640 ? null : 'w-80'} bg-slate-800 bg-opacity-15`}>

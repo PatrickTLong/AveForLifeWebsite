@@ -53,19 +53,24 @@ export default function Main2() {
         <>
             {/*Start*/}
             <div  className={` relative  ${windowWidth >= 640 ? 'flex-col' : 'flex-col'}  pt-24 pb-24   flex gap-10 bg-opacity-15 items-center justify-center`}>
-                <h1 className={` items-center  font-volkhov gap-4 justify-center flex ${windowWidth >= 640 ? 'text-3xl' : 'text-2xl'} `}>
+                {windowWidth >= 640 ? <h1 className={` items-center  font-volkhov gap-4 justify-center flex ${windowWidth >= 640 ? 'text-3xl' : 'text-xl'} `}>
         
-                    What We Do!
-                </h1>
+            What We Do!
+            </h1> : null}
+                
                 {/*Img and text*/}
                 <div className={`flex gap-20 ${windowWidth >= 640 ? 'flex-row' : 'flex-col '} items-center flex-row`}>
                     {/*TextBox*/}
                     
                     
-                    <img onTransitionEnd={() => TransEnd()} className={`shadow-xl ${windowWidth >= 640 ? 'h-96 w-[40rem]' : 'h-60 w-screen '} transition-opacity duration-1000 ${transition ? 'opacity-0' : 'opacity-100 '}  object-cover `} src={arrayofpics[arrayset]} alt="Pro Life Images" />
+                    <img onTransitionEnd={() => TransEnd()} className={`shadow-xl ${windowWidth >= 640 ? 'h-96 w-[40rem] rounded-xl' : 'h-60 w-screen '} transition-opacity duration-1000 ${transition ? 'opacity-0' : 'opacity-100 '}  object-cover `} src={arrayofpics[arrayset]} alt="Pro Life Images" />
+                    
                     {/*What we Do*/}
                     <div className="flex flex-col justify-center items-center gap-5">
-                      
+                    {windowWidth <= 640 ? <h1 className={` items-center  font-volkhov gap-4 justify-center flex ${windowWidth >= 640 ? 'text-3xl' : 'text-2xl'} `}>
+                    
+                    What We Do!
+                    </h1> : null}
                         <ul className={`list-disc shadow-xl flex gap-4 border-slate-700 border-2 border-opacity-15  flex-col list-inside rounded-3xl ${windowWidth >= 640 ? 'text-md' : 'text-sm'} ${windowWidth >= 640 ? null : 'w-80'} p-4 opacity-55 bg-slate-800 bg-opacity-15`}>
                             <li> Friday and Saturday Planned Parenthood Trips </li>
                             <li> March for Life Trip</li>
