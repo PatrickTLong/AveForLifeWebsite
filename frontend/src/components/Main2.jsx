@@ -7,7 +7,7 @@ import pic1 from "./imgs/pic1.jpeg";
 import pic2 from "./imgs/pic2.jpeg";
 import pic3 from "./imgs/pic3.jpeg";
 import pic4 from "./imgs/pic4.jpeg";
-import MissionState from "./imgs/Mission.jpg";
+import MissionState from "./imgs/avestatement.pdf";
 export default function Main2() {
     const [windowWidth, setWindowWidth] = useState(null);
     const arrayofpics = [pic1, pic2, pic3, pic4]
