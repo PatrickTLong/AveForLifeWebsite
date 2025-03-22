@@ -27,7 +27,7 @@ export default function Footer() {
     }, []);
 
     return (
-        <div className={`flex justify-center  items-center ${windowWidth >= 640 ? 'flex-row' : 'flex-col'} bg-blue-900 gap-20 p-28 shadow-md  bg-opacity-55 text-white`}>
+        <div className={`flex justify-center  items-center ${windowWidth >= 640 ? 'flex-row' : 'flex-col'} bg-[#2E8B57] gap-20 p-28 shadow-md  text-white`}>
             {/* Media */}
             <div className="flex flex-col justify-center items-center ">
                 <img className={` ${windowWidth >= 640 ? 'w-[9rem]' : 'w-[7rem]'} flex invert`} src={AveLogoWhite}></img>

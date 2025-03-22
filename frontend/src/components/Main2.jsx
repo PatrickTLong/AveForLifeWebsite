@@ -78,8 +78,11 @@ export default function Main2() {
                             <li> Speaker Events </li>
                             <li> Weekly On-Campus Holy Hours</li>
                             <li> Club Meetings </li>
-                        </ul>
+                        </ul> 
+                
                         <button onClick={() => OpenMission()} className={`transition-all will-change-transform shadow-xl bg-emerald-400 border-emerald-300 border-2 hover:bg-emerald-300 ${windowWidth >= 640 ? 'text-md' : 'text-sm'} text-white rounded-xl p-2 hover:scale-105`}>Check Out Our Mission Statement!</button>
+                        
+                      
                     </div>
                     
                 </div>
