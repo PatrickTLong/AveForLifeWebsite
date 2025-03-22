@@ -27,7 +27,7 @@ export default function App() {
       <Header />
       <Main1 
         img={MainPic} 
-        add='pt-48 pb-24'
+        add='pt-32 pb-16'
         title="We are the Pro-Life Generation." 
         summary="As the Ave for Life Club, we stand against the tragedy of abortion and its impact on men, women, and children worldwide. Our mission is to empower pro-life students at Ave Maria University, uniting them in prayer, education, and community-building events to create a culture that upholds the dignity of life." 
         svg={checksvg}
@@ -35,7 +35,7 @@ export default function App() {
       <Main2 />
       <Main1 
         img={Mlong1} 
-        add='pt-24 pb-24'
+        add='pt-16 pb-16'
         title="Meet Our President!" 
         summary="Michael D. Long graduated as the salutatorian of Donahue Academy High School in Ave Maria. He is now a sophomore at Ave Maria University. As our President, he is dedicated to championing the dignity and protection of unborn babies while fostering a culture of love and support for mothers in difficult circumstances. He works tirelessly to promote life-affirming solutions, ensuring that women receive the care, compassion, and resources they need to choose life with confidence and hope."
        
