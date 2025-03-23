@@ -52,7 +52,7 @@ export default function Main2() {
     return (
         <>
             {/*Start*/}
-            <div  className={` relative  ${windowWidth >= 640 ? 'flex-col' : 'flex-col'} border-b-2  pt-24 pb-24   flex gap-10 bg-opacity-15 items-center justify-center`}>
+            <div  className={` relative  ${windowWidth >= 640 ? 'flex-col' : 'flex-col'}   pt-24 pb-24   flex gap-10 bg-opacity-15 items-center justify-center`}>
                 {windowWidth >= 640 ? <h1 className={` items-center  font-volkhov gap-4 justify-center flex ${windowWidth >= 640 ? 'text-4xl' : 'text-xl'} `}>
         
             What We Do!
