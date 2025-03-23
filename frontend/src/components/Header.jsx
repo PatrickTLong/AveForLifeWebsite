@@ -47,7 +47,7 @@ export default function Header() {
         <menu className={`flex gap-5 ${windowWidth >= 640 ? 'text-md' : 'text-sm'} items-center justify-center`}>
           <a href="https://www.avemaria.edu/clubs-and-organizations/ave-for-life" className="transition-all will-change-transform hover:scale-105">More Info</a>
           <button onClick={() => Scroll()} className="transition-all will-change-transform hover:scale-105">Donate</button>
-          <button onClick={() => Scroll()}  className="transition-all will-change-transform shadow-xl bg-emerald-400 border-emerald-300 border-2 hover:bg-emerald-300 text-white rounded-xl p-2 hover:scale-105">Email Us</button>
+          <button onClick={() => Scroll()}  className="transition-all will-change-transform shadow-xl bg-pink-300 bg-opacity-70 border-pink-200 border-4 hover:bg-pink-200 text-white rounded-xl p-2 hover:scale-105">Email Us</button>
         </menu>
       ) : (
         // Mobile Menu Button and Dropdown
@@ -63,7 +63,7 @@ export default function Header() {
           <menu className={`gap-7 shadow-2xl flex justify-center origin-top-right items-center ${windowWidth >= 640 ? 'text-md' : 'text-sm'}  ${menuOn ? 'opacity-100 pointer-events-auto scale-100' : 'pointer-events-none scale-50 opacity-0'} bg-opacity-95 whitespace-nowrap right-0 p-10 top-14  bg-white duration-500 z-10 will-change-transform transition-all rounded-xl absolute flex flex-col`}>
             <a href="https://www.avemaria.edu/clubs-and-organizations/ave-for-life" className="transition-all  will-change-transform hover:scale-105">More Info</a>
             <button onClick={() => Scroll()} className="transition-all will-change-transform hover:scale-105">Donate</button>
-            <button onClick={() => Scroll()}  className="transition-all will-change-transform shadow-xl bg-emerald-400 border-emerald-300 border-2 hover:bg-emerald-300 text-white rounded-xl p-2 hover:scale-105">Email Us</button>
+            <button onClick={() => Scroll()}  className="transition-all will-change-transform shadow-xl bg-pink-300 bg-opacity-70 border-pink-200 border-4 hover:bg-pink-200 text-white rounded-xl p-2 hover:scale-105">Email Us</button>
           </menu>
         </div>
       )}
