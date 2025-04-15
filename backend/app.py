@@ -28,6 +28,6 @@ migrate = Migrate(app, db)
 @app.route("/")
 def start():
     return jsonify("Works")
-@app.route("/emailsubmit", methods=["POST"])
-def emailsubmit():
-    return "Wooyah"
+@app.route("/secretpiserver", methods=["POST"])
+def secretpiserver():
+    return "Shine!"
